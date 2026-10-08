@@ -1,0 +1,105 @@
+<mxfile host="65bd71144e">
+    <diagram id="pppVHtd_F888_xqnG69I" name="Page-1">
+        <mxGraphModel dx="1180" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4Er96dvSz65YmloPrg1N-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="" vertex="1">
+                    <mxGeometry height="20" width="80" x="720" y="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-2" edge="1" parent="1" source="4Er96dvSz65YmloPrg1N-1" style="edgeStyle=none;html=1;" target="4Er96dvSz65YmloPrg1N-3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Client" vertex="1">
+                    <mxGeometry height="60" width="120" x="30" y="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-5" edge="1" parent="1" source="4Er96dvSz65YmloPrg1N-3" style="edgeStyle=none;html=1;" target="4Er96dvSz65YmloPrg1N-4" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-9" edge="1" parent="1" source="4Er96dvSz65YmloPrg1N-3" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.177;exitDx=0;exitDy=0;" target="4Er96dvSz65YmloPrg1N-8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="409.14391725091343" as="sourcePoint"/>
+                        <mxPoint x="570" y="410.86407129455904" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-21" edge="1" parent="1" source="4Er96dvSz65YmloPrg1N-3" style="edgeStyle=none;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4Er96dvSz65YmloPrg1N-12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="API Gateway&amp;nbsp;&lt;div&gt;and Loadbalancer&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Autherization&lt;/div&gt;&lt;div&gt;- Rate Limiting&lt;/div&gt;&lt;div&gt;- Routing&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="200" width="120" x="250" y="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-6" edge="1" parent="1" source="4Er96dvSz65YmloPrg1N-4" style="edgeStyle=none;html=1;entryX=-0.024;entryY=0.384;entryDx=0;entryDy=0;startArrow=none;startFill=0;" target="4Er96dvSz65YmloPrg1N-7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="810" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-4" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="Subscription Service" vertex="1">
+                    <mxGeometry height="60" width="120" x="520" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-22" edge="1" parent="1" source="4Er96dvSz65YmloPrg1N-30" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="4Er96dvSz65YmloPrg1N-16">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="743.04" y="549.9999999999998" as="sourcePoint"/>
+                        <mxPoint x="740.0000000000002" y="649.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-31" edge="1" parent="1" source="4Er96dvSz65YmloPrg1N-7" style="edgeStyle=none;html=1;exitX=0.405;exitY=0.999;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="4Er96dvSz65YmloPrg1N-30">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="958.7" y="509.9999999999998" as="sourcePoint"/>
+                        <mxPoint x="961.2963488843814" y="569.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Postgres&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Endpoints&lt;/div&gt;&lt;div&gt;- Events Type&lt;/div&gt;&lt;div&gt;- Subscription&lt;/div&gt;&lt;div&gt;- User&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="200" width="120" x="900" y="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-15" edge="1" parent="1" source="4Er96dvSz65YmloPrg1N-8" style="edgeStyle=none;html=1;entryX=0.012;entryY=0.149;entryDx=0;entryDy=0;" target="4Er96dvSz65YmloPrg1N-7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="890" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-8" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="Endpoint Service" vertex="1">
+                    <mxGeometry height="60" width="120" x="530" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Subscriber" vertex="1">
+                    <mxGeometry height="60" width="120" x="700" y="800" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-13" edge="1" parent="1" source="4Er96dvSz65YmloPrg1N-12" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4Er96dvSz65YmloPrg1N-24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Event Service&lt;div&gt;(Tracks if Event has happend)&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="60" width="130" x="520" y="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-23" edge="1" parent="1" source="4Er96dvSz65YmloPrg1N-16" style="edgeStyle=none;html=1;" target="4Er96dvSz65YmloPrg1N-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-27" edge="1" parent="1" source="4Er96dvSz65YmloPrg1N-16" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4Er96dvSz65YmloPrg1N-28">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="900" y="649.9999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Notifier Service" vertex="1">
+                    <mxGeometry height="60" width="120" x="700" y="700" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-37" edge="1" parent="1" source="4Er96dvSz65YmloPrg1N-24" style="edgeStyle=none;html=1;entryX=-0.024;entryY=0.806;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="4Er96dvSz65YmloPrg1N-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Kafka" vertex="1">
+                    <mxGeometry height="30" width="60" x="730" y="495" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Dead Letter Queue" vertex="1">
+                    <mxGeometry height="60" width="120" x="910" y="700" as="geometry"/>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-38" edge="1" parent="1" source="4Er96dvSz65YmloPrg1N-20" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="4Er96dvSz65YmloPrg1N-30" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="760" y="525" as="sourcePoint"/>
+                        <mxPoint x="760" y="670" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4Er96dvSz65YmloPrg1N-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Fanout Service" vertex="1">
+                    <mxGeometry height="60" width="120" x="700" y="580" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
