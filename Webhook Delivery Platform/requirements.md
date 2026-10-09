@@ -5,7 +5,7 @@
 1. User can register and deregister the endpoint to receive webhook event.
 2. User can subscribe their service to specif event types.
 3. When an event is generated the platform should update all registered services.
-4. User should be able to see wheather event was successfully delivered or not.
+4. Platform should be able to confirm whether event was successfully delivered or not.
 
 ## Non Functional Requirements
 
