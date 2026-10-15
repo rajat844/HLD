@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="ZgKSzQ2zszdaYQjTrVsG" name="Page-1">
-        <mxGraphModel dx="1112" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1047" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -23,7 +23,7 @@
                 <mxCell id="gR1BPDOjelAVZjm480Cw-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="API Gateway&lt;div&gt;&amp;amp; Loadbalancer&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Autherization&lt;/div&gt;&lt;div&gt;- Authentication&lt;/div&gt;&lt;div&gt;- Rate Limiting&lt;/div&gt;&lt;div&gt;- Routing&lt;/div&gt;" vertex="1">
                     <mxGeometry height="200" width="120" x="410" y="450" as="geometry"/>
                 </mxCell>
-                <mxCell id="gR1BPDOjelAVZjm480Cw-5" edge="1" parent="1" source="gR1BPDOjelAVZjm480Cw-4" style="edgeStyle=none;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="gR1BPDOjelAVZjm480Cw-56">
+                <mxCell id="gR1BPDOjelAVZjm480Cw-5" edge="1" parent="1" source="gR1BPDOjelAVZjm480Cw-4" style="edgeStyle=none;html=1;entryX=0.008;entryY=0.302;entryDx=0;entryDy=0;" target="gR1BPDOjelAVZjm480Cw-56">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="410" y="380" as="targetPoint"/>
                     </mxGeometry>

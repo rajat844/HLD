@@ -3,16 +3,16 @@
 ## Requirements
 
 1. Client services can continously push structured or unstructured logs to the System.
-2. User can query and view logs filtered by time window, service name, severity-level and full-text search.
+2. User can query and view logs filtered by time window, service name, severity-level and full-text search within 15 days.
 3. User can define custom alert rules and configure notification channels.
 4. User can configure retention policy per service or log level.
 
 ## Non Functional Requirements
 
-1. Low end to end latency
+1. Low end to end latency.
 2. High ingestion availability and spike tolerance.
 3. Zero data loss for ingested error and fatal logs.
-4. Minimum Client Overhead
+4. Minimum Client Overhead.
 5. High scalability.
 
 ## Scale
@@ -23,7 +23,7 @@
 
 ## Entities
 
-- logs
+- owner
   - ownerId
 
 - services
