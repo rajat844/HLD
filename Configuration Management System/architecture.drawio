@@ -1,0 +1,74 @@
+<mxfile host="65bd71144e">
+    <diagram id="TYRmjUrpmG8Wy8AYszbm" name="Page-1">
+        <mxGraphModel dx="1200" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="h7GJOvyGUzC5nywjN737-3" edge="1" parent="1" source="h7GJOvyGUzC5nywjN737-1" style="edgeStyle=none;html=1;" target="h7GJOvyGUzC5nywjN737-2" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="h7GJOvyGUzC5nywjN737-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Client" vertex="1">
+                    <mxGeometry height="60" width="120" x="140" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="h7GJOvyGUzC5nywjN737-4" edge="1" parent="1" source="h7GJOvyGUzC5nywjN737-2" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" target="h7GJOvyGUzC5nywjN737-5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="670" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="h7GJOvyGUzC5nywjN737-15" edge="1" parent="1" source="h7GJOvyGUzC5nywjN737-2" style="edgeStyle=none;html=1;exitX=0.998;exitY=0.705;exitDx=0;exitDy=0;" target="h7GJOvyGUzC5nywjN737-14" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="h7GJOvyGUzC5nywjN737-19" edge="1" parent="1" source="h7GJOvyGUzC5nywjN737-2" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="h7GJOvyGUzC5nywjN737-18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="h7GJOvyGUzC5nywjN737-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="API Gateway &amp;amp; Loadbalance&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Routing&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Round Robin&lt;/div&gt;&lt;div&gt;- Authentication&lt;/div&gt;&lt;div&gt;- Autherization&lt;br&gt;&lt;br&gt;(for both WSS and REST)&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="280" width="120" x="420" y="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="h7GJOvyGUzC5nywjN737-9" edge="1" parent="1" source="h7GJOvyGUzC5nywjN737-5" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="h7GJOvyGUzC5nywjN737-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="h7GJOvyGUzC5nywjN737-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="WSS Server" vertex="1">
+                    <mxGeometry height="80" width="80" x="660" y="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="h7GJOvyGUzC5nywjN737-11" edge="1" parent="1" source="h7GJOvyGUzC5nywjN737-8" style="edgeStyle=none;html=1;entryX=0.008;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" target="h7GJOvyGUzC5nywjN737-12" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="h7GJOvyGUzC5nywjN737-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Chron Job Workers/&lt;div&gt;Sync Service&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="60" width="120" x="830" y="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="h7GJOvyGUzC5nywjN737-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;rounded=1;roundedPerimeter=1;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Postgres&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - UserDB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Configurations DB&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp; ConfigurationsSchema DB&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="255" width="245" x="1140" y="262.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="h7GJOvyGUzC5nywjN737-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Redis&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Configurations Cache&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;" vertex="1">
+                    <mxGeometry height="80" width="120" x="1010" y="182.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="h7GJOvyGUzC5nywjN737-13" edge="1" parent="1" source="h7GJOvyGUzC5nywjN737-8" style="edgeStyle=none;html=1;entryX=0.004;entryY=0.39;entryDx=0;entryDy=0;entryPerimeter=0;" target="h7GJOvyGUzC5nywjN737-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="h7GJOvyGUzC5nywjN737-17" edge="1" parent="1" source="h7GJOvyGUzC5nywjN737-14" style="edgeStyle=none;html=1;entryX=0.064;entryY=0.747;entryDx=0;entryDy=0;entryPerimeter=0;" target="h7GJOvyGUzC5nywjN737-10" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="950" y="450" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="h7GJOvyGUzC5nywjN737-14" parent="1" style="whiteSpace=wrap;html=1;rounded=1;roundedPerimeter=1;" value="Onboarding Service&lt;br&gt;(user and configuration Schema Setup)" vertex="1">
+                    <mxGeometry height="60" width="120" x="740" y="420" as="geometry"/>
+                </mxCell>
+                <mxCell id="h7GJOvyGUzC5nywjN737-20" edge="1" parent="1" source="h7GJOvyGUzC5nywjN737-18" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="h7GJOvyGUzC5nywjN737-12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="h7GJOvyGUzC5nywjN737-21" edge="1" parent="1" source="h7GJOvyGUzC5nywjN737-18" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="h7GJOvyGUzC5nywjN737-10">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1262.5" y="110"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="h7GJOvyGUzC5nywjN737-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Rollback Service" vertex="1">
+                    <mxGeometry height="60" width="120" x="850" y="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
